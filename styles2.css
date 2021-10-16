@@ -1,0 +1,256 @@
+* { margin:0; padding:0;}
+
+fieldset{
+    border:white 8px outset;
+
+}
+
+div{
+    display: inline;
+}
+
+body{
+    background-color: rgb(236, 240, 243);
+    display: inline;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+table{
+    text-align: center;
+}
+
+.var{
+    background-color: rgb(109, 44, 44);
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.var:hover{
+    background-color: rgb(233, 27, 27);
+    cursor: pointer;
+}
+.menu{
+    width: 20px;
+    height: 20px;
+    display:inline;
+    text-align:right;
+}
+.contact{
+    width: 20px;
+    height: 20px;
+    padding: 0px 10px;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.login{
+    background-color: rgb(34, 185, 20);
+}
+.info{
+    background-color: rgb(168, 235, 203);
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+    border:rgb(57, 137, 175) 6px dotted;
+    margin-top:10px;
+    padding: 20px;
+
+
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.icon:hover{
+    transform: rotate(360deg);
+    transition: all 1s;
+    }
+
+.iconop{
+    width: 70px;
+    height: 70px;
+}
+.texte{
+    border-radius: 12px;
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+.sent{
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(211, 32, 32);
+    color: white;
+    display: inline-block;
+    border-radius: 17px;
+    text-align: center;
+    width: 250px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgwat{
+  width: 30px;
+  height:17px;
+}
+.foto{
+  width: 200px;
+  height: 200px;
+}
+.contentvar{
+    display: inline-block;
+    background-color: rgb(77, 77, 167);
+}
+.barra{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.pervaj{
+    font-size: 20px;
+    color: rgb(19, 118, 204);
+}
+.password{
+  text-align: center;
+  background-color: rgb(211, 232, 232);
+  border-radius: 5px;
+}
+.setpasword{
+  width: 70px;
+  background-color: rgba(85, 214, 101, 0.7);
+  border-radius: 5px;
+  margin-bottom: 25px;
+
+}
+.borderperfil{
+  border: rgb(231, 199, 199) 30px inset;
+  background-color: rgb(236, 234, 234);
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
+.cajacenter{
+  margin-left: auto;
+  margin-right: auto;
+}
+.idented{
+  text-align: center;
+  background-color: rgb(80, 156, 99);
+  height: 80px;
+
+
+}
+.textperfil{
+  font-size: 25px;
+  font-family: cursive,fantasy,sans-serif;
+  color: rgb(45, 218, 74);
+  font-weight: bold;
+
+}
+.pinfo{
+    font-size: 20px;
+    color: rgb(19, 118, 204);
+}
+.setpasword:hover{
+    background-color: rgb(57, 168, 72);
+    cursor: pointer;
+}
+.contact:hover{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+.iconop:hover{
+    transform: rotate(360deg);
+    transition: all 1s;
+    }
+.sent:hover{
+        background-color: rgb(226, 39, 39);
+        box-shadow: 2px 2px 2px 2px rgb(33, 128, 33);
+        cursor: pointer;
+    }
+.sent:active{
+        background-color: rgb(219, 87, 26);
+    }
+
+
+    #menuvarra ul li {
+      background-color:#2c7e17;
+  }
+  
+  #menuvarra ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  
+  #menuvarra ul a {
+    display:block;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    font-weight:600;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-align: center;
+  
+  }
+  #menuvarra ul li {
+    position:relative;
+    float:inline-start;
+    margin:0;
+    padding:0;
+    
+  }
+  .line{
+    background-color: #2c7e17;
+    height: 57px;
+  
+  }
+  #menuvarra ul li:hover {
+    background:#1aac1a;
+    text-align: center;
+    
+  }
+  
+  #menuvarra ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+  }
+  
+  
+  
+  #menuvarra ul li:hover > ul {
+    display:inline-block;
+  }
+  .icon{
+      width: 30px;
+      height: 30px;
+  }
+  .icon:hover{
+      transform: rotate(360deg);
+      transition: all 1s;
+      }
+    .center{
+      display: inline;
+      background-color: red;
+    }
+
+
+
+
+
+
+
+

@@ -1,0 +1,280 @@
+* { margin:0; padding:0;
+}
+body{
+  background-image: url("font1.png"); 
+}
+#menuvarra ul li {
+    background-color:#2c7e17;
+}
+
+#menuvarra ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+#menuvarra ul a {
+  display:block;
+  color:rgb(255, 255, 255);
+  text-decoration:none;
+  font-weight:600;
+  font-size:15px;
+  padding:10px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+
+}
+#menuvarra ul li {
+  position:relative;
+  float:inline-start;
+  margin:0;
+  padding:0;
+  
+}
+#menuvarra ul li:hover {
+  background:#1aac1a;
+  text-align: center;
+}
+
+#menuvarra ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  padding:0;
+}
+
+
+
+#menuvarra ul li:hover > ul {
+  display:inline-block;
+}
+.line{
+
+  background-color: #2c7e17;
+  height: 57px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.icon:hover{
+    transform: rotate(360deg);
+    transition: all 1s;
+    }
+
+  .der{
+      text-align: left;
+      width: 15%;
+      height: 50%;
+  }
+  .is{
+    background-color: #1aac1a;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  .is:hover{
+    width: 40px;
+    height: 40px;
+  }
+  .libro{
+    display:inline-block;
+    width: 250px;
+    color: blanchedalmond;
+    height: 400px;
+    position:initial;
+    background-color: rgb(126, 80, 97);
+    float:left;
+    margin: auto;
+    text-align: center;
+    margin: 1px;
+  }
+  a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .libro:hover{
+    background-color: rgb(190, 68, 135);
+  }
+  .imglibro{
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+ 
+  }
+  .imgp{
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 70px;
+  }
+  .cat{
+    display: inline-block;
+    background-color: rgb(107, 13, 184);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 50%;
+  }
+  .comprar{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    color: rgb(211, 211, 211);
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0;
+    padding: 0%;
+  }
+  .reglib{
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(49, 27, 27);
+    background-color:rgb(158, 102, 102);
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: blue;
+    margin:15%;
+    border-style:ridge;
+  }
+  .inlib{
+    background-color: rgb(158, 132, 92);
+    margin:13px;
+  }
+  .inlib:hover{
+    background-color:rgb(84, 110, 60);
+  }
+  .pointer{
+    background-color: rgb(83, 148, 126);
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .pointer:hover{
+    background-color: rgb(45, 204, 59);
+  }
+  .compi{
+    float: inline-end;
+    width: 52px;
+    height: 52px;
+    background-color:  #2c7e17;
+  }
+  .compd{
+    float: inline-start;
+    width: 52px;
+    height: 52px;
+    background-color:  #2c7e17;
+  }
+  .compt{
+    color:rgb(223, 223, 223);
+    float: inline-end;
+    margin-top: 15px;
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: rgb(76, 117, 35);
+    font-weight:bold;
+  }
+  .compt:hover{
+    background-color: rgb(92, 150, 109);
+  }
+  .perl{
+    display:inline-block;
+    width: 250px;
+    color: white;
+    height: 400px;
+    background-color: rgb(204, 29, 93);
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 17px;
+    margin-top: 0px;
+  }
+  .perl:hover{
+    background-color: brown;
+    cursor:pointer;
+  }
+  .center{
+    text-align: center;
+  }
+  .card{
+    margin-left: 20px;
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(37, 60, 133);
+  }
+  .chip{
+    width: 50px;
+    background-color: rgb(37, 60, 133);
+    height: 50px;
+    transform: rotate(90deg);
+  }
+  .left{
+    float: inline-end;
+  }
+.iconcard{
+  width: 50px;
+  background-color: rgb(37, 60, 133);
+  height: 50px;
+}
+.target{
+  background-color: rgb(37, 60, 133);
+  color: white;
+  font-weight: 900;
+}
+.check{
+  background-color: rgb(194, 171, 37);
+
+}
+.inta{
+  background-color: rgb(80, 71, 255);
+  color: white;
+  border-radius: 6px;
+}
+.inta:hover{
+  background-color: rgb(86, 109, 186);
+}
+.white{
+  color: white;
+  background-color: rgb(37, 60, 133);
+  display:inline-block;
+  font-size: 25px;
+}
+.buttoncard{
+  background-color: blue;
+  width: 120px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-color: darkgreen;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: cursive;
+}
+.buttoncard:hover{
+  cursor: pointer;
+  border-color: crimson;
+  background-color: rgb(84, 84, 211);
+}
+.infoped{
+  display:inline-block;
+  background-color: tomato;
+  text-align: center;
+}
+.dinero{
+  width: 150px;
+  height: 150px;
+  float: inline-end;
+  
+}

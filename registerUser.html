@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registro de usuarios</title>
+        <style>
+        </style>
+    </head>
+    <body>
+        <form action="insertUser.php" method="POST" enctype="multipart/form-data">
+            Registrate para ingresar al sistema
+            <br>
+            Nombre<input type="text" name="name" required>
+            <br>
+            Apellido Materno<input type="text" name="ape1" required>
+            <br>
+            Apellido Paterno<input type="text" name="ape2" required>
+            <br>
+            Nombre de usuario<input type="text" name="username" required>
+            <br>
+            Contraseña<input type="text" name="passwordd" required>
+            <br>
+            Foto de perfil
+            <input type="file" name="imagen" size="20" required>
+            <br>
+            <br>
+            <input type="submit" value="Guardar">
+        </form>
+    </body>
+</html>
